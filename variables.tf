@@ -16,3 +16,16 @@ variable "root_volume_type" {
   type    = string
   default = "gp2"                       
 }
+
+
+// the above two can be replaced by
+// variable "ec2_config"{
+// type = objrct ({
+//    v_size = number 
+//    v_type = string 
+// })
+// default {
+//     v_size = 20 
+//    v_type = "gp2"
+//  }
+// }
