@@ -24,7 +24,7 @@ variable "root_volume_type" {
 //    v_size = number 
 //    v_type = string 
 // })
-// default {
+// default = {
 //     v_size = 20 
 //    v_type = "gp2"
 //  }
